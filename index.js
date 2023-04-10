@@ -101,6 +101,8 @@ $(document).ready(function () {
 
         currentScoreVal += 1;
         currentScore.text(currentScoreVal);
+        
+        inpAnsw.val('');
 
         genNewMQ();
 
